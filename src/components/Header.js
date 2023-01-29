@@ -4,9 +4,6 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { store } from "../Store";
 import { useTranslation } from "react-i18next";
-
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
 import Face6Icon from "@mui/icons-material/Face6";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -24,17 +21,18 @@ const pages = ["Experience", "Skill", "H5Game", "DevTool"];
 const title = "ROBERT";
 
 export function Header() {
-  const { t, i18n } = useTranslation();
+  const { t, /*i18n*/ } = useTranslation();
   const [bodyValue, setBodyValue] = React.useState(pages[0]);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
   const handleCloseNavMenu = (evt, value) => {
     store.body = value;
@@ -42,9 +40,9 @@ export function Header() {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 
   return (
     <AppBar position="static" component="nav">
@@ -153,31 +151,5 @@ export function Header() {
         </Toolbar>
       </Container>
     </AppBar>
-  );
-}
-
-function Nav() {
-  const { t, i18n } = useTranslation();
-  const [value, setValue] = React.useState("H5Game");
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-    store.body = newValue;
-  };
-
-  return (
-    <Box sx={{ width: "100%" }}>
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        textColor="secondary"
-        indicatorColor="secondary"
-        aria-label="secondary tabs example"
-      >
-        <Tab value="H5Game" label={t("H5Game")} />
-        <Tab value="CCExtension" label={t("CocosCreatorExtension")} />
-        <Tab value="WebTool" label={t("WebTool")} />
-      </Tabs>
-    </Box>
   );
 }

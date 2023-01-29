@@ -27,5 +27,5 @@ export function Skill() {
 }
 
 function Icon({icon}) {
-    return <img src={"static/images/icon/" + icon + ".png"}  style={{width: 32}}></img>
+    return <img src={"static/images/icon/" + icon + ".png"} style={{width: 32}} alt=""></img>
 }
