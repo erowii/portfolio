@@ -1,0 +1,185 @@
+{
+  "FootBallChampion": [
+    {
+      "title": "一般遊戲",
+      "images": ["static/images/game/FootBall4.webp"],
+      "video": []
+    },
+    {
+      "title": "點球大戰",
+      "images": [
+        "static/images/game/FootBall0.webp",
+        "static/images/game/FootBall1.webp"
+      ],
+      "video": ["static/video/FootBall0.mp4"]
+    }
+  ],
+  "GoldenMoneyFrog": [
+    {
+      "title": "一般遊戲",
+      "images": [
+        "static/images/game/Frog4.webp",
+        "static/images/game/Frog3.webp"
+      ],
+      "video": ["static/video/Frog0.mp4"]
+    },
+    {
+      "title": "免費遊戲",
+      "images": [
+        "static/images/game/Frog5.webp",
+        "static/images/game/Frog6.webp"
+      ],
+      "video": ["static/video/Frog1.mp4"]
+    },
+    {
+      "title": "紅利遊戲",
+      "images": [
+        "static/images/game/Frog1.webp",
+        "static/images/game/Frog2.webp"
+      ],
+      "video": ["static/video/Frog2.mp4"]
+    }
+  ],
+  "FortunateLion": [
+    {
+      "title": "遊戲畫面",
+      "images": [
+        "static/images/game/Lion0.webp",
+        "static/images/game/Lion1.webp",
+        "static/images/game/Lion2.webp"
+      ],
+      "video": []
+    },
+    {
+      "title": "Symbol消去",
+      "images": [
+        "static/images/gif/Lion0.gif",
+        "static/images/gif/Lion1.gif"
+      ],
+      "video": []
+    },
+    {
+      "title": "影片",
+      "images": [],
+      "video": [
+        "static/video/Lion0.mp4",
+        "static/video/Lion1.mp4"
+      ]
+    }
+  ],
+  "MonkeyKing": [
+    {
+      "title": "百變卡牌",
+      "images": ["static/images/gif/Monkey0.gif"],
+      "video": []
+    },
+    {
+      "title": "定海神針",
+      "images": ["static/images/gif/Monkey1.gif"],
+      "video": []
+    },
+    {
+      "title": "百變大發生",
+      "images": ["static/images/gif/Monkey2.gif"],
+      "video": []
+    }
+  ],
+  "WealthKois": [
+    {
+      "title": "推移百搭",
+      "images": ["static/images/gif/Kois0.gif"],
+      "video": []
+    },
+    {
+      "title": "太極鏡射",
+      "images": ["static/images/gif/Kois1.gif"],
+      "video": []
+    },
+    {
+      "title": "水波紋",
+      "images": [],
+      "video": ["static/video/Kois0.mp4"]
+    }
+  ],
+  "Sicbo": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/Sicbo.mp4"]
+    }
+  ],
+  "ThreeFace": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/ThreeFace.mp4"]
+    }
+  ],
+  "WenzhouPaiGow": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/WenzhouPaiGow.mp4"]
+    }
+  ],
+  "TexasHoldem": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/TexasHoldem.mp4"]
+    }
+  ],
+  "Baccarat": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/Baccarat0.mp4"]
+    },
+    {
+      "title": "多台",
+      "images": [],
+      "video": ["static/video/Baccarat1.mp4"]
+    },
+    {
+      "title": "瞇牌",
+      "images": [],
+      "video": ["static/video/Baccarat2.mp4"]
+    }
+  ],
+  "Multibet": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/Multibet.mp4"]
+    }
+  ],
+  "FiveWayFortuneGods": [
+    {
+      "title": "遊戲畫面",
+      "images": [],
+      "video": ["static/video/FiveGods.mp4"]
+    }
+  ],
+  "LuckyFishing": [
+    {
+      "title": "免費炮",
+      "images": [],
+      "video": ["static/video/Fishing0.mp4"]
+    },
+    {
+      "title": "紅包抽獎",
+      "images": [],
+      "video": ["static/video/Fishing1.mp4"]
+    },
+    {
+      "title": "金龍閃電",
+      "images": [],
+      "video": ["static/video/Fishing2.mp4"]
+    },
+    {
+      "title": "共鬥獎勵",
+      "images": [],
+      "video": ["static/video/Fishing3.mp4"]
+    }
+  ]
+}
